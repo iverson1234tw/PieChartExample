@@ -65,7 +65,7 @@ typedef enum {
     [topBar mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.left.top.right.mas_equalTo(self.view);
-        make.height.mas_equalTo(@60);
+        make.height.mas_equalTo(@70);
         
     }];
     

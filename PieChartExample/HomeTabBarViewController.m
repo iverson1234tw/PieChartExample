@@ -24,13 +24,11 @@
 
 - (void)tabbar_init {
     
-    UITabBarItem *home = [self.tabBar.items objectAtIndex:0];
-    UITabBarItem *chart = [self.tabBar.items objectAtIndex:1];
-    UITabBarItem *qrcodeScan = [self.tabBar.items objectAtIndex:2];
+    UITabBarItem *chart = [self.tabBar.items objectAtIndex:0];
+    UITabBarItem *qrcodeScan = [self.tabBar.items objectAtIndex:1];
     
-    [home setTitle:@"Home"];
     [chart setTitle:@"Charts"];
-    [qrcodeScan setTitle:@"QRCode"];
+    [qrcodeScan setTitle:@"QRCode"];        
     
 }
 
