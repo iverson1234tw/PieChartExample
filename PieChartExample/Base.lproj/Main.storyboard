@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="139" y="64"/>
         </scene>
-        <!--Item 2-->
+        <!--Charts-->
         <scene sceneID="t6K-jc-gP5">
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="WQW-Hi-jxM" customClass="ViewController" sceneMemberID="viewController">
@@ -32,23 +32,23 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RrV-nJ-Isd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="iyU-g0-YSg"/>
+                    <tabBarItem key="tabBarItem" title="Charts" image="square.grid.2x2" catalog="system" id="iyU-g0-YSg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JfI-eq-Ads" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2024" y="408"/>
         </scene>
-        <!--Item-->
+        <!--QRCode-->
         <scene sceneID="rMo-QQ-LAw">
             <objects>
-                <viewController id="Fkr-yt-36p" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScanViewController" id="Fkr-yt-36p" customClass="ScanViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hof-Pv-zYt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oCf-Rz-u5x"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="v7Q-wj-dHs"/>
+                    <tabBarItem key="tabBarItem" title="QRCode" image="qrcode" catalog="system" id="v7Q-wj-dHs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xu7-2q-ql6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,4 +73,8 @@
             <point key="canvasLocation" x="1101" y="81"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="qrcode" catalog="system" width="128" height="114"/>
+        <image name="square.grid.2x2" catalog="system" width="128" height="114"/>
+    </resources>
 </document>

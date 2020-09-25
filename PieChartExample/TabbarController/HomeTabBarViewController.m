@@ -28,7 +28,7 @@
     UITabBarItem *qrcodeScan = [self.tabBar.items objectAtIndex:1];
     
     [chart setTitle:@"Charts"];
-    [qrcodeScan setTitle:@"QRCode"];        
+    [qrcodeScan setTitle:@"QRCode"];
     
 }
 

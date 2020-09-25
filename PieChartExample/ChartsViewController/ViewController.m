@@ -10,10 +10,11 @@
 #import "LineChartViewController.h"
 #import "ColumChartViewController.h"
 #import "BarChartViewController.h"
+#import "AreaChartViewController.h"
 #import "ViewController.h"
 #import "MainCell.h"
 
-#define TitleList @[@"Colum Chart", @"Line Chart", @"Pie Chart", @"Bar Chart"]
+#define TitleList @[@"Colum Chart", @"Line Chart", @"Pie Chart", @"Bar Chart", @"Area Chart"]
 
 typedef enum {
     TableList, // 表單
@@ -43,11 +44,9 @@ typedef enum {
 - (void)init_main_view {
     
     topBar = [[TopBarView alloc] initWithFrame:CGRectZero];
-    topBar.titleLabel.text = @"PieChart Example";
+    topBar.titleLabel.text = @"Charts Demo";
     topBar.additionButton.hidden = true;
     topBar.backButton.hidden = true;
-//    [topBar.additionButton setImage:[UIImage imageNamed:@"activity_grid_2"] forState:UIControlStateNormal];
-//    [topBar.additionButton addTarget:self action:@selector(additionButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:topBar];
     
@@ -99,6 +98,7 @@ typedef enum {
             [topBar.additionButton setImage:[UIImage imageNamed:@"align_justify"] forState:UIControlStateNormal];
             
             break;
+                    
     }
     
 }
@@ -173,6 +173,16 @@ typedef enum {
             barViewController.modalPresentationStyle = UIModalPresentationFullScreen;
             
             [self presentViewController:barViewController animated:YES completion:nil];
+            
+            break;
+        }
+            
+        case 4: {
+            
+            AreaChartViewController *areaViewController = [[AreaChartViewController alloc] init];
+            areaViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+            
+            [self presentViewController:areaViewController animated:YES completion:nil];
             
             break;
         }

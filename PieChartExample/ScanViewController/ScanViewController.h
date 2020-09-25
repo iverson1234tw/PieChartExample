@@ -1,5 +1,5 @@
 //
-//  BarChartViewController.h
+//  ScanViewController.h
 //  PieChartExample
 //
 //  Created by iverson1234tw on 2020/9/25.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BarChartViewController : UIViewController
+@interface ScanViewController : UIViewController
 
 @end
 
