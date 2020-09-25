@@ -1,0 +1,23 @@
+//
+//  PieChartExample-Prefix.pch
+//  PieChartExample
+//
+//  Created by iverson1234tw on 2020/9/24.
+//  Copyright © 2020 josh.chen. All rights reserved.
+//
+
+#ifndef PieChartExample_Prefix_pch
+#define PieChartExample_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "TopBarView.h"
+#import "AAChartKit.h"
+#endif
+
+#define AGENCY_FB               @"Agency FB"
+#define WANG_DA_XI_BLUE [UIColor colorWithRed:173.0/255.0 green:217.0/255.0 blue:237.0/255.0 alpha:1.0]
+
+#endif /* PieChartExample_Prefix_pch */

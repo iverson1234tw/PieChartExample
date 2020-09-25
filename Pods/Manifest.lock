@@ -1,0 +1,28 @@
+PODS:
+  - AAChartKit (5.0.4)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AAChartKit (from `https://github.com/AAChartModel/AAChartKit.git`)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  AAChartKit:
+    :git: https://github.com/AAChartModel/AAChartKit.git
+
+CHECKOUT OPTIONS:
+  AAChartKit:
+    :commit: ac329683486aa5c42bfceec09606f8d8ec15314b
+    :git: https://github.com/AAChartModel/AAChartKit.git
+
+SPEC CHECKSUMS:
+  AAChartKit: 0f69007e943e3d751b02e36df8ef5ea4fea668d9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 463da5d628d28aeb498dbb7862af3afb1cdefccb
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC946B45F6B5BE54CC9BF5DBF60A758 /* MASLayoutConstraint.m */; };
+		0169AACD29B54C2442B3B42F2B22A658 /* AAPie.m in Sources */ = {isa = PBXBuildFile; fileRef = D914589E0777CE485CB3F76446159B54 /* AAPie.m */; };
+		06F3D2ECD127652A43E7FDEEC7A5B480 /* AAXAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 65657C4F5F8659C6E7A7FFE0F8331D20 /* AAXAxis.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09DFC28176B27A37C9F64CF508F14221 /* AAAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F21D973ADD8B6A4762193CFE4A6588DD /* AAAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C6F40EB30743313D060171139AA40BC /* AAStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DF26ABFC7D1E1C44537930463E8AD732 /* AAStyle.m */; };
+		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE8D8A814762DA99ABA0AF5B5482404 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		120A279AB0D7989AEBEEEBD2F65CEB79 /* AALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0AB5D7422F0A009496C8369BAB612D /* AALabel.m */; };
+		14EDA12B2C45D171F58FBDB6E3404ABE /* AALine.h in Headers */ = {isa = PBXBuildFile; fileRef = F728C0A71336A5CDF81A356A386BF2DF /* AALine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1707246D2790CFA68558BA3AC8EB8E7F /* AAAreaspline.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFF6E1C58EF94F55CF170B2DE9831A /* AAAreaspline.m */; };
+		190D55E9A53977ACA5B70E79F4EF4098 /* AAPlotLinesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DF3E714DEAF9E79ED36D3B984AD40E /* AAPlotLinesElement.m */; };
+		1B0AD4237FC42FA5BFB860E619B1C23B /* AAChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A7963BD73A2B365E75ACB96DBF9AC1C5 /* AAChartModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CA991F778471CA10DED5BA015C44C32 /* AAPlotBandsElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0604D85E55A8D18AAEA409F6252982 /* AAPlotBandsElement.m */; };
+		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A36F4AD37ECB6B7686573E2379A8B73 /* MASConstraintMaker.m */; };
+		21A9460227A5E3F3454E1A3C7A6F4C23 /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8BA5E1606C7C108640179A24677654B /* AAJSFiles.bundle */; };
+		2CE5B9F82519711DA92297ACD17218BA /* AASeriesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A76A0C64EB12821FF07F5A2B69BB05F8 /* AASeriesElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F162849A790556642BAD9446826A82A /* AALegend.h in Headers */ = {isa = PBXBuildFile; fileRef = A92833A5FF8807BD8898C843859B0D90 /* AALegend.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30340C7020BF0B659299C30582E71C9F /* AALegend.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D9EB42975D5C69CE4E6148703B9BC /* AALegend.m */; };
+		337284AEB61430CEAE3B2EEB302BA76B /* AAGradientColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAC862CB0228F73A3898E19C91D0FF1 /* AAGradientColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B502D9E9B7677A8350F32E22771581D /* AABar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA49F1EF87D2B12CA62412F928CE15A /* AABar.m */; };
+		3BFA69B27FCB6D61DF28045B9A98D326 /* AALabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C76E8C2D5CD61670F8C23593131B7696 /* AALabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B61E2FD8695D8F78AC793B8249B84918 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45A9B74FA852C72B4F13CB26F5EFEBC3 /* AASeries.h in Headers */ = {isa = PBXBuildFile; fileRef = EE60618F66C69A369A9EF3E396A060BD /* AASeries.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 60986F4591C2365D69492353E3AE6F5F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		483952BDE02338FB350D1AD8C984B5F0 /* AATitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E133FCB6FE0B2AA45053F172A84F70 /* AATitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49C67998A009A474B15DDBA0D8E72C39 /* AAPlotBandsElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D36DE70C44975F266DF1350A4728A1C /* AAPlotBandsElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A2FEF3662D17CA5C2FA03A4E3F57C0F /* AAPlotOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3B4DB96F3FC847E88EA64BDBF3132B /* AAPlotOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C4534A881330CCFC20F5487B9F9879D /* AASpline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6052E88D57FD5E7173CCFEBEB43AA4 /* AASpline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EC661569E79298CFE196FD53D484EC70 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EE7F9FC9F8B235070AF68207CC8FB24 /* Pods-PieChartExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726DA27B68ABB258D2116EBF75769FB9 /* Pods-PieChartExample-dummy.m */; };
+		4F2BB0B392777621BC23DABAEA757464 /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F79393EDF8E9FD7E10043891110A32 /* AAYAxis.m */; };
+		4F4A4F59623F566D3DAFED848C0ADCCE /* AATooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = E7888C03BFA832D10FF1CA551270E310 /* AATooltip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		509C54C97AAD2F6B05113083F957F51C /* AAShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = B129C01C857B6ADCC5395334068A5FB9 /* AAShadow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55B695D6D269D032449A36CC33DB94F4 /* AAStates.h in Headers */ = {isa = PBXBuildFile; fileRef = C48F393CB664AE03B17D4C9A3C0B1F44 /* AAStates.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		565C59DBB5A8E8AA64D0998F7AEBCD10 /* AAColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCCC987EDF69DA6BADE4005BDF63120 /* AAColumn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A87643B2839DA8838B183D694A0D638D /* MASViewConstraint.m */; };
+		58406F90486AB93CA167B14DD38DE6E5 /* AAArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E76BF4647C50B4B13D507001712851 /* AAArea.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B87F1C6738D9D1E28D958C75DFD5CB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5B470BD879AB1E90E6068D4F85615EA6 /* AATitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24574209F487A819D66C604DAA1AA5 /* AATitle.m */; };
+		5BE2CAC42044253AD5AC332714808848 /* AAChartKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C0CBBFD433DAB17875F912A6ACCEA6 /* AAChartKit-dummy.m */; };
+		5C6D5A37036A2DC78E6999AF5B5B84E1 /* AAOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = AB80A3713A6846A408007CBE0CBB95E5 /* AAOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CA67B634D948FD21F7D085902C57599 /* AASeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E2E2FE99EDD6A86F1BB0D3E0E7675 /* AASeries.m */; };
+		627808E853E310B485CE34DE580287DA /* AABar.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B88F852DDC751A4F5BE83C9E14D11B /* AABar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62B73FEE6F7B850F338DA12D953B2977 /* AACredits.m in Sources */ = {isa = PBXBuildFile; fileRef = A715B9A436EB51093FF5DEF6B9EEA3C3 /* AACredits.m */; };
+		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C1EC09D751B1ABDF2DBAC11D869BF /* MASCompositeConstraint.m */; };
+		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 56197837055D2E9BFDA18AE7C28B732F /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66195EB87BD9E7EC94431F0BE0077B69 /* NSString+toPureJSString.h in Headers */ = {isa = PBXBuildFile; fileRef = 490D724340E131DFE6ADB2CCDA0326E7 /* NSString+toPureJSString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66ACC4D5C706B0D3EB51136BD9879335 /* AAGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E733215EA0B99D2A5404E77D94B675 /* AAGradientColor.m */; };
+		6A5173FB0A4ADF5D7380EBB1A23C0E3F /* AAStyleConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 6058EDF9F30B3B95E041957B6CD890DD /* AAStyleConvenience.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BFDB0C09BBC0301951A8D0E98FEA2F5 /* AADataLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC2F1AF0AF4452801D44BB84AD547AF /* AADataLabels.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F9B2D69CBD8FE3A1DD4A75397E8D256 /* AAColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70C107BC881448DF21BFA70420CA8E /* AAColumn.m */; };
+		74205D97E023A8AE739234693B364997 /* AACrosshair.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF85F4762925E9E9D38C1E2DD39E146 /* AACrosshair.m */; };
+		76B7E260497176EA0EB82066FE1E519D /* AAColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D77BD984C015C3E39EB943191C16E90 /* AAColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7826D039C37D8AA7D23C04B029AC0CF2 /* AAChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 822EB6FF76158F6407A3F27B1EFA8D15 /* AAChartView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AF00A113C440FE702FAB05142191F14 /* AACredits.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF111BA0342F3A5BE6107F6E2D68D3D /* AACredits.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA2AE74137B65451AE0A81CE1812B35 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2D1C8A67098A65987EEF3785859438 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		833536C637E3EDDC3973049E35F8F8D2 /* AAGlobalMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA56CCF1E704F7908EAC2938E1DAE4 /* AAGlobalMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84EE4BCAFF7ED5EEF996C71D84179F34 /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A90A980284652EBB98D48B5168712D /* AAChartModel.m */; };
+		8B68AE99B17D80483A722128D8552BEE /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 07637DD2A8AD9B3CB6DAB86183888443 /* AASeriesElement.m */; };
+		8FC1DCB0C3454FDEA39ADCFABEDF14BD /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C176133DB39A86789BE4B1E3C306ACD0 /* AAAnimation.m */; };
+		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 35786B16454768EBFCC4248B3EC5E1B7 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BB810B0CF5A5E6E1FEFA5305610BABFB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		993E17A378EEF72FFCD88698B8BF315A /* AALine.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6A7E2467BAB8BCA8C734946EF9033 /* AALine.m */; };
+		9B82394B675286A7CAEBC2E32A859724 /* AAMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD263EE2D49F41E6960C11A04FD5D3 /* AAMarker.m */; };
+		9E4EA27F4C56D33560F264909097E52D /* AAPlotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3D29DBFF2786E33B20225A43334B8 /* AAPlotOptions.m */; };
+		A261F719502C60DF52685A0085718644 /* AAShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A56D9C1C77ED79A952E36315280C7 /* AAShadow.m */; };
+		A322927221ACA035C6AF9EA8B297DFD8 /* AAYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0BA14B273DCF412385F7DF8CA6B3B6 /* AAYAxis.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 596B3C30101F5485F45D77EA6DFE2C91 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4EB9F391D48438C7B3BF52F73A36854 /* AAColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7B8CCC44934F07CFE5DDA44B4855 /* AAColor.m */; };
+		A625F76FDE8F0E5C4C1DF25ED88900FB /* NSArray+toJSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 46902D192709BD6EDCF41B1CD0EDBA73 /* NSArray+toJSArray.m */; };
+		A7F7470A51D5B71B8568FB4D9F02368B /* AALang.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF03DCE0B58F6209E7803A6C3B03C0F /* AALang.m */; };
+		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4E1566680DCCE2777A4A0B2840742B /* MASViewAttribute.m */; };
+		AA6D60B0B3254F3F93F660ABB79C6B1E /* AAStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FDF045BFF32547683EE660371F5EEF /* AAStates.m */; };
+		AAF15549A794B5EAA7483E389B088B97 /* AADataLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B40E18334CF4F8A084ECBBECE3B68 /* AADataLabels.m */; };
+		AF27AFB9DBB4378FB50FD91059744864 /* NSArray+toJSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F3CB00841A69FE0202A0563984279E /* NSArray+toJSArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0FE459F7309A6095C8B82AC29689D9D /* AAArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAC8363DA84CCBC6EC931F66741994 /* AAArea.m */; };
+		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = D14166DD67915D985EE97BD3ED265380 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F27D90F397C7F2CD4F9F2ED13162486 /* NSArray+MASAdditions.m */; };
+		BB91A024EAD1F47E999B120ECBFED51A /* NSString+toPureJSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE178A4E037BE22E779F2B17DAF3E91 /* NSString+toPureJSString.m */; };
+		BF203B9717ED498D879F3E97CAB37396 /* AAPie.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1B6BD9CCC76B599886F50B8039EE34 /* AAPie.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B95EA3EABEEC4C1034701BBEC27B2 /* ViewController+MASAdditions.m */; };
+		C23FB94293D177DDD0ED25B5A336A650 /* AALabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A384AB42FD6A9293B9DEBC80DD8DF8 /* AALabels.m */; };
+		C26BFB2304117EDEAB4BCB96E5051A70 /* AAChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 002BF2D77A658F29B3402C5DD6163060 /* AAChart.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3D8BDA2D427498A700B32FF6CD3AAF6 /* AAChartKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4650A08D3318796528989581A96A60BD /* AAChartKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB00CFDDC1D6A4D0F93261832491C4AF /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4460691EA6F51B208481BC82C5BC4B2F /* View+MASAdditions.m */; };
+		CE45FFA41DA61C56042C3C8C3871B114 /* AAPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F39F5AB459EA4CB6188A92A805AD64B /* AAPane.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D309E54AF2281F1B3E9EF3EFE88ED478 /* AAPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 526035CB3F4FA27A9A4C26BC4E963B3C /* AAPane.m */; };
+		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 331F16C5459FDD50ACD98B76AB8519C5 /* Masonry-dummy.m */; };
+		DA762E04C766FDC041A5C434349BCE69 /* AAMarginConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 8749F61EFA5FE3482E2B09D8CE53B88A /* AAMarginConvenience.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DAABE6DE29405B7BCB0D5B4320137406 /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A1CFA062797174E81FA33257D36C76 /* AAXAxis.m */; };
+		E15D9CABB21D8EEE83714507D9CEF6CF /* AAChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CDC812AA402EAE260C3366F9D12AB /* AAChart.m */; };
+		E719714B0C8D2C623F45803047D6A320 /* AAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C59874ACB642B9595E5577AFF1065B53 /* AAOptions.m */; };
+		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C95C704E14EEDA5C98C4AE36E2F680E0 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8F2C59F50726A8005B45743F0054278 /* AACrosshair.h in Headers */ = {isa = PBXBuildFile; fileRef = A42E97499C928C76921BD1862520F83E /* AACrosshair.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9D82C1007232C16528301ADFAA8C5BD /* AASpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DAA751EA2A415ECDE87A00E521714 /* AASpline.m */; };
+		EA240477FC9E9B62BB1231D80689B341 /* AAPlotLinesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB0984F2E268D875F8A115195EDC905 /* AAPlotLinesElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4542BB7C4658482FA26779849EF3CE6B /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDF2F9257F5230FE0F14EEBB0FC27B98 /* AALabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 97179C43EAD564C6993C6E2BC53A5054 /* AALabels.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE07E4B47B8F18802732DD2AE567F8E0 /* AAStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 03947DDA8899ED92CDA571795EA5EC63 /* AAStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE2800C5286D1F51A7D1F29E40EFCA2D /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C6FB8845698DB1E043035D3C4DE21 /* AATooltip.m */; };
+		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 858E6DFB8FE350FC681A70BA4D818218 /* MASConstraint.m */; };
+		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7328ADECED432166D594FAFE60532858 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F32005B15A798BE974EDA6805CF4D97E /* AAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77982FCF25F03F30135D365769098C5D /* AAChartView.m */; };
+		F5634595B90702824E63F81DDCD2775F /* AAAreaspline.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BF3C3D263A985E5C6EDBD9067A2375 /* AAAreaspline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7A9C78F3A70F64AFB0D5DF09D9889CF /* AAMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0546F1AA96F406E2BA8ABAC22A0D5F5B /* AAMarker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDE8EBACEAD3693A58D82D2A0DE235EA /* AALang.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0E388A22EC82815C19660A1BA89D95 /* AALang.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5A08BFBDE0632C88599D9D5A85DFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B79B2FBD286F588F344035DBD5EE51;
+			remoteInfo = AAChartKit;
+		};
+		6751627AA8EDB6C8523CD62C1CF9B3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		B785257AEE592167BC072E8F4B787179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55EA7395F837D8CB375579499940DFC;
+			remoteInfo = "AAChartKit-AAChartKitLib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002BF2D77A658F29B3402C5DD6163060 /* AAChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChart.h; path = AAChartKitLib/AAOptionsModel/AAChart.h; sourceTree = "<group>"; };
+		03947DDA8899ED92CDA571795EA5EC63 /* AAStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAStyle.h; path = AAChartKitLib/AAOptionsModel/AAStyle.h; sourceTree = "<group>"; };
+		0546F1AA96F406E2BA8ABAC22A0D5F5B /* AAMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAMarker.h; path = AAChartKitLib/AAOptionsModel/AAMarker.h; sourceTree = "<group>"; };
+		07637DD2A8AD9B3CB6DAB86183888443 /* AASeriesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AASeriesElement.m; path = AAChartKitLib/AAChartCreator/AASeriesElement.m; sourceTree = "<group>"; };
+		07E133FCB6FE0B2AA45053F172A84F70 /* AATitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AATitle.h; path = AAChartKitLib/AAOptionsModel/AATitle.h; sourceTree = "<group>"; };
+		0C3552B0B2763AFAC66C8B60EB05FDE0 /* libPods-PieChartExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PieChartExample.a"; path = "libPods-PieChartExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A1CFA062797174E81FA33257D36C76 /* AAXAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAXAxis.m; path = AAChartKitLib/AAOptionsModel/AAXAxis.m; sourceTree = "<group>"; };
+		1ACD263EE2D49F41E6960C11A04FD5D3 /* AAMarker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAMarker.m; path = AAChartKitLib/AAOptionsModel/AAMarker.m; sourceTree = "<group>"; };
+		1C4CDC812AA402EAE260C3366F9D12AB /* AAChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAChart.m; path = AAChartKitLib/AAOptionsModel/AAChart.m; sourceTree = "<group>"; };
+		1FAC862CB0228F73A3898E19C91D0FF1 /* AAGradientColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAGradientColor.h; path = AAChartKitLib/AATool/Color/AAGradientColor.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A384AB42FD6A9293B9DEBC80DD8DF8 /* AALabels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALabels.m; path = AAChartKitLib/AAOptionsModel/AALabels.m; sourceTree = "<group>"; };
+		2D3B4DB96F3FC847E88EA64BDBF3132B /* AAPlotOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPlotOptions.h; path = AAChartKitLib/AAOptionsModel/AAPlotOptions.h; sourceTree = "<group>"; };
+		2FB3D29DBFF2786E33B20225A43334B8 /* AAPlotOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPlotOptions.m; path = AAChartKitLib/AAOptionsModel/AAPlotOptions.m; sourceTree = "<group>"; };
+		331F16C5459FDD50ACD98B76AB8519C5 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		35786B16454768EBFCC4248B3EC5E1B7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		3D8B40E18334CF4F8A084ECBBECE3B68 /* AADataLabels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AADataLabels.m; path = AAChartKitLib/AAOptionsModel/AADataLabels.m; sourceTree = "<group>"; };
+		4000C4D6B65D6BECC6DD2D26A28BD104 /* Pods-PieChartExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PieChartExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4460691EA6F51B208481BC82C5BC4B2F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		4542BB7C4658482FA26779849EF3CE6B /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		4650A08D3318796528989581A96A60BD /* AAChartKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartKit.h; path = AAChartKitLib/AAChartCreator/AAChartKit.h; sourceTree = "<group>"; };
+		46902D192709BD6EDCF41B1CD0EDBA73 /* NSArray+toJSArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+toJSArray.m"; path = "AAChartKitLib/AATool/Category/NSArray+toJSArray.m"; sourceTree = "<group>"; };
+		46B88F852DDC751A4F5BE83C9E14D11B /* AABar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AABar.h; path = AAChartKitLib/AAOptionsModel/AABar.h; sourceTree = "<group>"; };
+		490D724340E131DFE6ADB2CCDA0326E7 /* NSString+toPureJSString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+toPureJSString.h"; path = "AAChartKitLib/AATool/Category/NSString+toPureJSString.h"; sourceTree = "<group>"; };
+		4A36F4AD37ECB6B7686573E2379A8B73 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AE8D8A814762DA99ABA0AF5B5482404 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		4C0BA14B273DCF412385F7DF8CA6B3B6 /* AAYAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAYAxis.h; path = AAChartKitLib/AAOptionsModel/AAYAxis.h; sourceTree = "<group>"; };
+		4C2D1C8A67098A65987EEF3785859438 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		51BF3C3D263A985E5C6EDBD9067A2375 /* AAAreaspline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAAreaspline.h; path = AAChartKitLib/AAOptionsModel/AAAreaspline.h; sourceTree = "<group>"; };
+		5213BF4CF55896BF9B84B1C8A515B62D /* AAChartKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAChartKit-prefix.pch"; sourceTree = "<group>"; };
+		526035CB3F4FA27A9A4C26BC4E963B3C /* AAPane.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPane.m; path = AAChartKitLib/AAOptionsModel/AAPane.m; sourceTree = "<group>"; };
+		539A61012343D92544E72BE7623FF4CE /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		56197837055D2E9BFDA18AE7C28B732F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		596B3C30101F5485F45D77EA6DFE2C91 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5B0AB5D7422F0A009496C8369BAB612D /* AALabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALabel.m; path = AAChartKitLib/AAOptionsModel/AALabel.m; sourceTree = "<group>"; };
+		5BEAC8363DA84CCBC6EC931F66741994 /* AAArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAArea.m; path = AAChartKitLib/AAOptionsModel/AAArea.m; sourceTree = "<group>"; };
+		5D823390604C52DFAA3AC10C8BFB8335 /* libAAChartKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAAChartKit.a; path = libAAChartKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC2F1AF0AF4452801D44BB84AD547AF /* AADataLabels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AADataLabels.h; path = AAChartKitLib/AAOptionsModel/AADataLabels.h; sourceTree = "<group>"; };
+		5E0604D85E55A8D18AAEA409F6252982 /* AAPlotBandsElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPlotBandsElement.m; path = AAChartKitLib/AAOptionsModel/AAPlotBandsElement.m; sourceTree = "<group>"; };
+		5E5D9EB42975D5C69CE4E6148703B9BC /* AALegend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALegend.m; path = AAChartKitLib/AAOptionsModel/AALegend.m; sourceTree = "<group>"; };
+		5F09E27CAE2F54F7BADEFE770814D659 /* AAChartKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAChartKit.release.xcconfig; sourceTree = "<group>"; };
+		5F39F5AB459EA4CB6188A92A805AD64B /* AAPane.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPane.h; path = AAChartKitLib/AAOptionsModel/AAPane.h; sourceTree = "<group>"; };
+		6058EDF9F30B3B95E041957B6CD890DD /* AAStyleConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAStyleConvenience.h; path = AAChartKitLib/AATool/Convenience/AAStyleConvenience.h; sourceTree = "<group>"; };
+		60986F4591C2365D69492353E3AE6F5F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		65657C4F5F8659C6E7A7FFE0F8331D20 /* AAXAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAXAxis.h; path = AAChartKitLib/AAOptionsModel/AAXAxis.h; sourceTree = "<group>"; };
+		690C1EC09D751B1ABDF2DBAC11D869BF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		6A24574209F487A819D66C604DAA1AA5 /* AATitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AATitle.m; path = AAChartKitLib/AAOptionsModel/AATitle.m; sourceTree = "<group>"; };
+		6A4AC700B5CB270BDCF6F93C59D77B5D /* Pods-PieChartExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PieChartExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CE178A4E037BE22E779F2B17DAF3E91 /* NSString+toPureJSString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+toPureJSString.m"; path = "AAChartKitLib/AATool/Category/NSString+toPureJSString.m"; sourceTree = "<group>"; };
+		6CF85F4762925E9E9D38C1E2DD39E146 /* AACrosshair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AACrosshair.m; path = AAChartKitLib/AAOptionsModel/AACrosshair.m; sourceTree = "<group>"; };
+		6D77BD984C015C3E39EB943191C16E90 /* AAColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAColor.h; path = AAChartKitLib/AATool/Color/AAColor.h; sourceTree = "<group>"; };
+		726DA27B68ABB258D2116EBF75769FB9 /* Pods-PieChartExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PieChartExample-dummy.m"; sourceTree = "<group>"; };
+		72E76BF4647C50B4B13D507001712851 /* AAArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAArea.h; path = AAChartKitLib/AAOptionsModel/AAArea.h; sourceTree = "<group>"; };
+		7328ADECED432166D594FAFE60532858 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AAChartKitLib.bundle; path = "AAChartKit-AAChartKitLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		766ED3268C07590C318390FF4F683A57 /* Pods-PieChartExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieChartExample.debug.xcconfig"; sourceTree = "<group>"; };
+		77982FCF25F03F30135D365769098C5D /* AAChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAChartView.m; path = AAChartKitLib/AAChartCreator/AAChartView.m; sourceTree = "<group>"; };
+		78F3CB00841A69FE0202A0563984279E /* NSArray+toJSArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+toJSArray.h"; path = "AAChartKitLib/AATool/Category/NSArray+toJSArray.h"; sourceTree = "<group>"; };
+		79B87F1C6738D9D1E28D958C75DFD5CB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7D36DE70C44975F266DF1350A4728A1C /* AAPlotBandsElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPlotBandsElement.h; path = AAChartKitLib/AAOptionsModel/AAPlotBandsElement.h; sourceTree = "<group>"; };
+		7FA49F1EF87D2B12CA62412F928CE15A /* AABar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AABar.m; path = AAChartKitLib/AAOptionsModel/AABar.m; sourceTree = "<group>"; };
+		822EB6FF76158F6407A3F27B1EFA8D15 /* AAChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartView.h; path = AAChartKitLib/AAChartCreator/AAChartView.h; sourceTree = "<group>"; };
+		858E6DFB8FE350FC681A70BA4D818218 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		8749F61EFA5FE3482E2B09D8CE53B88A /* AAMarginConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAMarginConvenience.h; path = AAChartKitLib/AATool/Convenience/AAMarginConvenience.h; sourceTree = "<group>"; };
+		877DAA751EA2A415ECDE87A00E521714 /* AASpline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AASpline.m; path = AAChartKitLib/AAOptionsModel/AASpline.m; sourceTree = "<group>"; };
+		8A408232253E94ECAFD774E77C9B4537 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		8CFA56CCF1E704F7908EAC2938E1DAE4 /* AAGlobalMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAGlobalMacro.h; path = AAChartKitLib/AAChartCreator/AAGlobalMacro.h; sourceTree = "<group>"; };
+		8E70C107BC881448DF21BFA70420CA8E /* AAColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAColumn.m; path = AAChartKitLib/AAOptionsModel/AAColumn.m; sourceTree = "<group>"; };
+		8F27D90F397C7F2CD4F9F2ED13162486 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		91C0CBBFD433DAB17875F912A6ACCEA6 /* AAChartKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAChartKit-dummy.m"; sourceTree = "<group>"; };
+		96BFF6E1C58EF94F55CF170B2DE9831A /* AAAreaspline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAAreaspline.m; path = AAChartKitLib/AAOptionsModel/AAAreaspline.m; sourceTree = "<group>"; };
+		97179C43EAD564C6993C6E2BC53A5054 /* AALabels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALabels.h; path = AAChartKitLib/AAOptionsModel/AALabels.h; sourceTree = "<group>"; };
+		97FDF045BFF32547683EE660371F5EEF /* AAStates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAStates.m; path = AAChartKitLib/AAOptionsModel/AAStates.m; sourceTree = "<group>"; };
+		9C6052E88D57FD5E7173CCFEBEB43AA4 /* AASpline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AASpline.h; path = AAChartKitLib/AAOptionsModel/AASpline.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42E97499C928C76921BD1862520F83E /* AACrosshair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AACrosshair.h; path = AAChartKitLib/AAOptionsModel/AACrosshair.h; sourceTree = "<group>"; };
+		A43C6FB8845698DB1E043035D3C4DE21 /* AATooltip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AATooltip.m; path = AAChartKitLib/AAOptionsModel/AATooltip.m; sourceTree = "<group>"; };
+		A715B9A436EB51093FF5DEF6B9EEA3C3 /* AACredits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AACredits.m; path = AAChartKitLib/AAOptionsModel/AACredits.m; sourceTree = "<group>"; };
+		A76A0C64EB12821FF07F5A2B69BB05F8 /* AASeriesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AASeriesElement.h; path = AAChartKitLib/AAChartCreator/AASeriesElement.h; sourceTree = "<group>"; };
+		A7963BD73A2B365E75ACB96DBF9AC1C5 /* AAChartModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartModel.h; path = AAChartKitLib/AAChartCreator/AAChartModel.h; sourceTree = "<group>"; };
+		A7A90A980284652EBB98D48B5168712D /* AAChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAChartModel.m; path = AAChartKitLib/AAChartCreator/AAChartModel.m; sourceTree = "<group>"; };
+		A7DF3E714DEAF9E79ED36D3B984AD40E /* AAPlotLinesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPlotLinesElement.m; path = AAChartKitLib/AAOptionsModel/AAPlotLinesElement.m; sourceTree = "<group>"; };
+		A87643B2839DA8838B183D694A0D638D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		A92833A5FF8807BD8898C843859B0D90 /* AALegend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALegend.h; path = AAChartKitLib/AAOptionsModel/AALegend.h; sourceTree = "<group>"; };
+		A9E733215EA0B99D2A5404E77D94B675 /* AAGradientColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAGradientColor.m; path = AAChartKitLib/AATool/Color/AAGradientColor.m; sourceTree = "<group>"; };
+		AB80A3713A6846A408007CBE0CBB95E5 /* AAOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAOptions.h; path = AAChartKitLib/AAChartCreator/AAOptions.h; sourceTree = "<group>"; };
+		AC0E388A22EC82815C19660A1BA89D95 /* AALang.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALang.h; path = AAChartKitLib/AAOptionsModel/AALang.h; sourceTree = "<group>"; };
+		ADA2AE74137B65451AE0A81CE1812B35 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		AFC946B45F6B5BE54CC9BF5DBF60A758 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		B129C01C857B6ADCC5395334068A5FB9 /* AAShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAShadow.h; path = AAChartKitLib/AAOptionsModel/AAShadow.h; sourceTree = "<group>"; };
+		B477A23F597A61DF4AADDD4087AF432D /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		B61E2FD8695D8F78AC793B8249B84918 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		BB00CFDDC1D6A4D0F93261832491C4AF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BB810B0CF5A5E6E1FEFA5305610BABFB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BB8E2E2FE99EDD6A86F1BB0D3E0E7675 /* AASeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AASeries.m; path = AAChartKitLib/AAOptionsModel/AASeries.m; sourceTree = "<group>"; };
+		BD4E1566680DCCE2777A4A0B2840742B /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		BEF03DCE0B58F6209E7803A6C3B03C0F /* AALang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALang.m; path = AAChartKitLib/AAOptionsModel/AALang.m; sourceTree = "<group>"; };
+		BFF111BA0342F3A5BE6107F6E2D68D3D /* AACredits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AACredits.h; path = AAChartKitLib/AAOptionsModel/AACredits.h; sourceTree = "<group>"; };
+		C176133DB39A86789BE4B1E3C306ACD0 /* AAAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAAnimation.m; path = AAChartKitLib/AAOptionsModel/AAAnimation.m; sourceTree = "<group>"; };
+		C1C0954B25264E4B3A65AB9FD2795EB4 /* Pods-PieChartExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PieChartExample.release.xcconfig"; sourceTree = "<group>"; };
+		C3F79393EDF8E9FD7E10043891110A32 /* AAYAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAYAxis.m; path = AAChartKitLib/AAOptionsModel/AAYAxis.m; sourceTree = "<group>"; };
+		C48F393CB664AE03B17D4C9A3C0B1F44 /* AAStates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAStates.h; path = AAChartKitLib/AAOptionsModel/AAStates.h; sourceTree = "<group>"; };
+		C59874ACB642B9595E5577AFF1065B53 /* AAOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAOptions.m; path = AAChartKitLib/AAChartCreator/AAOptions.m; sourceTree = "<group>"; };
+		C6C6A7E2467BAB8BCA8C734946EF9033 /* AALine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALine.m; path = AAChartKitLib/AAOptionsModel/AALine.m; sourceTree = "<group>"; };
+		C76E8C2D5CD61670F8C23593131B7696 /* AALabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALabel.h; path = AAChartKitLib/AAOptionsModel/AALabel.h; sourceTree = "<group>"; };
+		C8FC7B8CCC44934F07CFE5DDA44B4855 /* AAColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAColor.m; path = AAChartKitLib/AATool/Color/AAColor.m; sourceTree = "<group>"; };
+		C95C704E14EEDA5C98C4AE36E2F680E0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D14166DD67915D985EE97BD3ED265380 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		D42B95EA3EABEEC4C1034701BBEC27B2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D914589E0777CE485CB3F76446159B54 /* AAPie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPie.m; path = AAChartKitLib/AAOptionsModel/AAPie.m; sourceTree = "<group>"; };
+		DF26ABFC7D1E1C44537930463E8AD732 /* AAStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAStyle.m; path = AAChartKitLib/AAOptionsModel/AAStyle.m; sourceTree = "<group>"; };
+		E1F2E753AB3C6ED6C8AADB373A39E1F2 /* ResourceBundle-AAChartKitLib-AAChartKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AAChartKitLib-AAChartKit-Info.plist"; sourceTree = "<group>"; };
+		E622B1A5A58C39BD579BD9324039AE55 /* AAChartKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAChartKit.debug.xcconfig; sourceTree = "<group>"; };
+		E7888C03BFA832D10FF1CA551270E310 /* AATooltip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AATooltip.h; path = AAChartKitLib/AAOptionsModel/AATooltip.h; sourceTree = "<group>"; };
+		EA1B6BD9CCC76B599886F50B8039EE34 /* AAPie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPie.h; path = AAChartKitLib/AAOptionsModel/AAPie.h; sourceTree = "<group>"; };
+		EAB0984F2E268D875F8A115195EDC905 /* AAPlotLinesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPlotLinesElement.h; path = AAChartKitLib/AAOptionsModel/AAPlotLinesElement.h; sourceTree = "<group>"; };
+		EC661569E79298CFE196FD53D484EC70 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EE341D3578086467A6DF09D6FED699B1 /* Pods-PieChartExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PieChartExample-resources.sh"; sourceTree = "<group>"; };
+		EE60618F66C69A369A9EF3E396A060BD /* AASeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AASeries.h; path = AAChartKitLib/AAOptionsModel/AASeries.h; sourceTree = "<group>"; };
+		F21D973ADD8B6A4762193CFE4A6588DD /* AAAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAAnimation.h; path = AAChartKitLib/AAOptionsModel/AAAnimation.h; sourceTree = "<group>"; };
+		F30A56D9C1C77ED79A952E36315280C7 /* AAShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAShadow.m; path = AAChartKitLib/AAOptionsModel/AAShadow.m; sourceTree = "<group>"; };
+		F728C0A71336A5CDF81A356A386BF2DF /* AALine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALine.h; path = AAChartKitLib/AAOptionsModel/AALine.h; sourceTree = "<group>"; };
+		F8BA5E1606C7C108640179A24677654B /* AAJSFiles.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AAJSFiles.bundle; path = AAChartKitLib/AAJSFiles.bundle; sourceTree = "<group>"; };
+		FCCCC987EDF69DA6BADE4005BDF63120 /* AAColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAColumn.h; path = AAChartKitLib/AAOptionsModel/AAColumn.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E04D7C39AEA41B975585579AB77E3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABD9187C3D5840697FEB8278D2CC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD48AF4646FB0361EF2C317F7C094B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F162335886B4AD36DB74A29B2F54E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */,
+				5D823390604C52DFAA3AC10C8BFB8335 /* libAAChartKit.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				0C3552B0B2763AFAC66C8B60EB05FDE0 /* libPods-PieChartExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15543D849E157B402511DD42DB55C71F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA5E1606C7C108640179A24677654B /* AAJSFiles.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		27A095C12D5FCBFA11E145AE706BF4CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				331F16C5459FDD50ACD98B76AB8519C5 /* Masonry-dummy.m */,
+				8A408232253E94ECAFD774E77C9B4537 /* Masonry-prefix.pch */,
+				B477A23F597A61DF4AADDD4087AF432D /* Masonry.debug.xcconfig */,
+				539A61012343D92544E72BE7623FF4CE /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		31484209B32A1957522CB97BFDFFE957 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BB810B0CF5A5E6E1FEFA5305610BABFB /* MASCompositeConstraint.h */,
+				690C1EC09D751B1ABDF2DBAC11D869BF /* MASCompositeConstraint.m */,
+				4542BB7C4658482FA26779849EF3CE6B /* MASConstraint.h */,
+				858E6DFB8FE350FC681A70BA4D818218 /* MASConstraint.m */,
+				EC661569E79298CFE196FD53D484EC70 /* MASConstraint+Private.h */,
+				35786B16454768EBFCC4248B3EC5E1B7 /* MASConstraintMaker.h */,
+				4A36F4AD37ECB6B7686573E2379A8B73 /* MASConstraintMaker.m */,
+				ADA2AE74137B65451AE0A81CE1812B35 /* MASLayoutConstraint.h */,
+				AFC946B45F6B5BE54CC9BF5DBF60A758 /* MASLayoutConstraint.m */,
+				D14166DD67915D985EE97BD3ED265380 /* Masonry.h */,
+				56197837055D2E9BFDA18AE7C28B732F /* MASUtilities.h */,
+				B61E2FD8695D8F78AC793B8249B84918 /* MASViewAttribute.h */,
+				BD4E1566680DCCE2777A4A0B2840742B /* MASViewAttribute.m */,
+				4AE8D8A814762DA99ABA0AF5B5482404 /* MASViewConstraint.h */,
+				A87643B2839DA8838B183D694A0D638D /* MASViewConstraint.m */,
+				7328ADECED432166D594FAFE60532858 /* NSArray+MASAdditions.h */,
+				8F27D90F397C7F2CD4F9F2ED13162486 /* NSArray+MASAdditions.m */,
+				4C2D1C8A67098A65987EEF3785859438 /* NSArray+MASShorthandAdditions.h */,
+				BB00CFDDC1D6A4D0F93261832491C4AF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				79B87F1C6738D9D1E28D958C75DFD5CB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				60986F4591C2365D69492353E3AE6F5F /* View+MASAdditions.h */,
+				4460691EA6F51B208481BC82C5BC4B2F /* View+MASAdditions.m */,
+				596B3C30101F5485F45D77EA6DFE2C91 /* View+MASShorthandAdditions.h */,
+				C95C704E14EEDA5C98C4AE36E2F680E0 /* ViewController+MASAdditions.h */,
+				D42B95EA3EABEEC4C1034701BBEC27B2 /* ViewController+MASAdditions.m */,
+				27A095C12D5FCBFA11E145AE706BF4CD /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		609B8AC42E6E69A0309C22A9C105F7EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9F732087417ED5E76749DFBCBBA0A74 /* AAChartKit */,
+				31484209B32A1957522CB97BFDFFE957 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80F9CD02906D4879CF96B81A5104FA7F /* Pods-PieChartExample */ = {
+			isa = PBXGroup;
+			children = (
+				4000C4D6B65D6BECC6DD2D26A28BD104 /* Pods-PieChartExample-acknowledgements.markdown */,
+				6A4AC700B5CB270BDCF6F93C59D77B5D /* Pods-PieChartExample-acknowledgements.plist */,
+				726DA27B68ABB258D2116EBF75769FB9 /* Pods-PieChartExample-dummy.m */,
+				EE341D3578086467A6DF09D6FED699B1 /* Pods-PieChartExample-resources.sh */,
+				766ED3268C07590C318390FF4F683A57 /* Pods-PieChartExample.debug.xcconfig */,
+				C1C0954B25264E4B3A65AB9FD2795EB4 /* Pods-PieChartExample.release.xcconfig */,
+			);
+			name = "Pods-PieChartExample";
+			path = "Target Support Files/Pods-PieChartExample";
+			sourceTree = "<group>";
+		};
+		82F7E93C60728D7C59BFDC4A20EFF875 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F9CD02906D4879CF96B81A5104FA7F /* Pods-PieChartExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9F732087417ED5E76749DFBCBBA0A74 /* AAChartKit */ = {
+			isa = PBXGroup;
+			children = (
+				F21D973ADD8B6A4762193CFE4A6588DD /* AAAnimation.h */,
+				C176133DB39A86789BE4B1E3C306ACD0 /* AAAnimation.m */,
+				72E76BF4647C50B4B13D507001712851 /* AAArea.h */,
+				5BEAC8363DA84CCBC6EC931F66741994 /* AAArea.m */,
+				51BF3C3D263A985E5C6EDBD9067A2375 /* AAAreaspline.h */,
+				96BFF6E1C58EF94F55CF170B2DE9831A /* AAAreaspline.m */,
+				46B88F852DDC751A4F5BE83C9E14D11B /* AABar.h */,
+				7FA49F1EF87D2B12CA62412F928CE15A /* AABar.m */,
+				002BF2D77A658F29B3402C5DD6163060 /* AAChart.h */,
+				1C4CDC812AA402EAE260C3366F9D12AB /* AAChart.m */,
+				4650A08D3318796528989581A96A60BD /* AAChartKit.h */,
+				A7963BD73A2B365E75ACB96DBF9AC1C5 /* AAChartModel.h */,
+				A7A90A980284652EBB98D48B5168712D /* AAChartModel.m */,
+				822EB6FF76158F6407A3F27B1EFA8D15 /* AAChartView.h */,
+				77982FCF25F03F30135D365769098C5D /* AAChartView.m */,
+				6D77BD984C015C3E39EB943191C16E90 /* AAColor.h */,
+				C8FC7B8CCC44934F07CFE5DDA44B4855 /* AAColor.m */,
+				FCCCC987EDF69DA6BADE4005BDF63120 /* AAColumn.h */,
+				8E70C107BC881448DF21BFA70420CA8E /* AAColumn.m */,
+				BFF111BA0342F3A5BE6107F6E2D68D3D /* AACredits.h */,
+				A715B9A436EB51093FF5DEF6B9EEA3C3 /* AACredits.m */,
+				A42E97499C928C76921BD1862520F83E /* AACrosshair.h */,
+				6CF85F4762925E9E9D38C1E2DD39E146 /* AACrosshair.m */,
+				5DC2F1AF0AF4452801D44BB84AD547AF /* AADataLabels.h */,
+				3D8B40E18334CF4F8A084ECBBECE3B68 /* AADataLabels.m */,
+				8CFA56CCF1E704F7908EAC2938E1DAE4 /* AAGlobalMacro.h */,
+				1FAC862CB0228F73A3898E19C91D0FF1 /* AAGradientColor.h */,
+				A9E733215EA0B99D2A5404E77D94B675 /* AAGradientColor.m */,
+				C76E8C2D5CD61670F8C23593131B7696 /* AALabel.h */,
+				5B0AB5D7422F0A009496C8369BAB612D /* AALabel.m */,
+				97179C43EAD564C6993C6E2BC53A5054 /* AALabels.h */,
+				27A384AB42FD6A9293B9DEBC80DD8DF8 /* AALabels.m */,
+				AC0E388A22EC82815C19660A1BA89D95 /* AALang.h */,
+				BEF03DCE0B58F6209E7803A6C3B03C0F /* AALang.m */,
+				A92833A5FF8807BD8898C843859B0D90 /* AALegend.h */,
+				5E5D9EB42975D5C69CE4E6148703B9BC /* AALegend.m */,
+				F728C0A71336A5CDF81A356A386BF2DF /* AALine.h */,
+				C6C6A7E2467BAB8BCA8C734946EF9033 /* AALine.m */,
+				8749F61EFA5FE3482E2B09D8CE53B88A /* AAMarginConvenience.h */,
+				0546F1AA96F406E2BA8ABAC22A0D5F5B /* AAMarker.h */,
+				1ACD263EE2D49F41E6960C11A04FD5D3 /* AAMarker.m */,
+				AB80A3713A6846A408007CBE0CBB95E5 /* AAOptions.h */,
+				C59874ACB642B9595E5577AFF1065B53 /* AAOptions.m */,
+				5F39F5AB459EA4CB6188A92A805AD64B /* AAPane.h */,
+				526035CB3F4FA27A9A4C26BC4E963B3C /* AAPane.m */,
+				EA1B6BD9CCC76B599886F50B8039EE34 /* AAPie.h */,
+				D914589E0777CE485CB3F76446159B54 /* AAPie.m */,
+				7D36DE70C44975F266DF1350A4728A1C /* AAPlotBandsElement.h */,
+				5E0604D85E55A8D18AAEA409F6252982 /* AAPlotBandsElement.m */,
+				EAB0984F2E268D875F8A115195EDC905 /* AAPlotLinesElement.h */,
+				A7DF3E714DEAF9E79ED36D3B984AD40E /* AAPlotLinesElement.m */,
+				2D3B4DB96F3FC847E88EA64BDBF3132B /* AAPlotOptions.h */,
+				2FB3D29DBFF2786E33B20225A43334B8 /* AAPlotOptions.m */,
+				EE60618F66C69A369A9EF3E396A060BD /* AASeries.h */,
+				BB8E2E2FE99EDD6A86F1BB0D3E0E7675 /* AASeries.m */,
+				A76A0C64EB12821FF07F5A2B69BB05F8 /* AASeriesElement.h */,
+				07637DD2A8AD9B3CB6DAB86183888443 /* AASeriesElement.m */,
+				B129C01C857B6ADCC5395334068A5FB9 /* AAShadow.h */,
+				F30A56D9C1C77ED79A952E36315280C7 /* AAShadow.m */,
+				9C6052E88D57FD5E7173CCFEBEB43AA4 /* AASpline.h */,
+				877DAA751EA2A415ECDE87A00E521714 /* AASpline.m */,
+				C48F393CB664AE03B17D4C9A3C0B1F44 /* AAStates.h */,
+				97FDF045BFF32547683EE660371F5EEF /* AAStates.m */,
+				03947DDA8899ED92CDA571795EA5EC63 /* AAStyle.h */,
+				DF26ABFC7D1E1C44537930463E8AD732 /* AAStyle.m */,
+				6058EDF9F30B3B95E041957B6CD890DD /* AAStyleConvenience.h */,
+				07E133FCB6FE0B2AA45053F172A84F70 /* AATitle.h */,
+				6A24574209F487A819D66C604DAA1AA5 /* AATitle.m */,
+				E7888C03BFA832D10FF1CA551270E310 /* AATooltip.h */,
+				A43C6FB8845698DB1E043035D3C4DE21 /* AATooltip.m */,
+				65657C4F5F8659C6E7A7FFE0F8331D20 /* AAXAxis.h */,
+				10A1CFA062797174E81FA33257D36C76 /* AAXAxis.m */,
+				4C0BA14B273DCF412385F7DF8CA6B3B6 /* AAYAxis.h */,
+				C3F79393EDF8E9FD7E10043891110A32 /* AAYAxis.m */,
+				78F3CB00841A69FE0202A0563984279E /* NSArray+toJSArray.h */,
+				46902D192709BD6EDCF41B1CD0EDBA73 /* NSArray+toJSArray.m */,
+				490D724340E131DFE6ADB2CCDA0326E7 /* NSString+toPureJSString.h */,
+				6CE178A4E037BE22E779F2B17DAF3E91 /* NSString+toPureJSString.m */,
+				15543D849E157B402511DD42DB55C71F /* Resources */,
+				F361E192B6F169E4DE41ACD0550B3995 /* Support Files */,
+			);
+			name = AAChartKit;
+			path = AAChartKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				609B8AC42E6E69A0309C22A9C105F7EA /* Pods */,
+				0F162335886B4AD36DB74A29B2F54E7E /* Products */,
+				82F7E93C60728D7C59BFDC4A20EFF875 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F361E192B6F169E4DE41ACD0550B3995 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91C0CBBFD433DAB17875F912A6ACCEA6 /* AAChartKit-dummy.m */,
+				5213BF4CF55896BF9B84B1C8A515B62D /* AAChartKit-prefix.pch */,
+				E622B1A5A58C39BD579BD9324039AE55 /* AAChartKit.debug.xcconfig */,
+				5F09E27CAE2F54F7BADEFE770814D659 /* AAChartKit.release.xcconfig */,
+				E1F2E753AB3C6ED6C8AADB373A39E1F2 /* ResourceBundle-AAChartKitLib-AAChartKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AAChartKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2697A8D6B2989B073B236F7B4BF67F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */,
+				4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */,
+				EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */,
+				9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */,
+				7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */,
+				B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */,
+				65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */,
+				42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */,
+				115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */,
+				F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */,
+				81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */,
+				C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */,
+				A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */,
+				E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8237CFBC3532EF3D97180004AA15AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C748D2D28FF02C9C88089DE5128624 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DFC28176B27A37C9F64CF508F14221 /* AAAnimation.h in Headers */,
+				58406F90486AB93CA167B14DD38DE6E5 /* AAArea.h in Headers */,
+				F5634595B90702824E63F81DDCD2775F /* AAAreaspline.h in Headers */,
+				627808E853E310B485CE34DE580287DA /* AABar.h in Headers */,
+				C26BFB2304117EDEAB4BCB96E5051A70 /* AAChart.h in Headers */,
+				C3D8BDA2D427498A700B32FF6CD3AAF6 /* AAChartKit.h in Headers */,
+				1B0AD4237FC42FA5BFB860E619B1C23B /* AAChartModel.h in Headers */,
+				7826D039C37D8AA7D23C04B029AC0CF2 /* AAChartView.h in Headers */,
+				76B7E260497176EA0EB82066FE1E519D /* AAColor.h in Headers */,
+				565C59DBB5A8E8AA64D0998F7AEBCD10 /* AAColumn.h in Headers */,
+				7AF00A113C440FE702FAB05142191F14 /* AACredits.h in Headers */,
+				E8F2C59F50726A8005B45743F0054278 /* AACrosshair.h in Headers */,
+				6BFDB0C09BBC0301951A8D0E98FEA2F5 /* AADataLabels.h in Headers */,
+				833536C637E3EDDC3973049E35F8F8D2 /* AAGlobalMacro.h in Headers */,
+				337284AEB61430CEAE3B2EEB302BA76B /* AAGradientColor.h in Headers */,
+				3BFA69B27FCB6D61DF28045B9A98D326 /* AALabel.h in Headers */,
+				EDF2F9257F5230FE0F14EEBB0FC27B98 /* AALabels.h in Headers */,
+				FDE8EBACEAD3693A58D82D2A0DE235EA /* AALang.h in Headers */,
+				2F162849A790556642BAD9446826A82A /* AALegend.h in Headers */,
+				14EDA12B2C45D171F58FBDB6E3404ABE /* AALine.h in Headers */,
+				DA762E04C766FDC041A5C434349BCE69 /* AAMarginConvenience.h in Headers */,
+				F7A9C78F3A70F64AFB0D5DF09D9889CF /* AAMarker.h in Headers */,
+				5C6D5A37036A2DC78E6999AF5B5B84E1 /* AAOptions.h in Headers */,
+				CE45FFA41DA61C56042C3C8C3871B114 /* AAPane.h in Headers */,
+				BF203B9717ED498D879F3E97CAB37396 /* AAPie.h in Headers */,
+				49C67998A009A474B15DDBA0D8E72C39 /* AAPlotBandsElement.h in Headers */,
+				EA240477FC9E9B62BB1231D80689B341 /* AAPlotLinesElement.h in Headers */,
+				4A2FEF3662D17CA5C2FA03A4E3F57C0F /* AAPlotOptions.h in Headers */,
+				45A9B74FA852C72B4F13CB26F5EFEBC3 /* AASeries.h in Headers */,
+				2CE5B9F82519711DA92297ACD17218BA /* AASeriesElement.h in Headers */,
+				509C54C97AAD2F6B05113083F957F51C /* AAShadow.h in Headers */,
+				4C4534A881330CCFC20F5487B9F9879D /* AASpline.h in Headers */,
+				55B695D6D269D032449A36CC33DB94F4 /* AAStates.h in Headers */,
+				EE07E4B47B8F18802732DD2AE567F8E0 /* AAStyle.h in Headers */,
+				6A5173FB0A4ADF5D7380EBB1A23C0E3F /* AAStyleConvenience.h in Headers */,
+				483952BDE02338FB350D1AD8C984B5F0 /* AATitle.h in Headers */,
+				4F4A4F59623F566D3DAFED848C0ADCCE /* AATooltip.h in Headers */,
+				06F3D2ECD127652A43E7FDEEC7A5B480 /* AAXAxis.h in Headers */,
+				A322927221ACA035C6AF9EA8B297DFD8 /* AAYAxis.h in Headers */,
+				AF27AFB9DBB4378FB50FD91059744864 /* NSArray+toJSArray.h in Headers */,
+				66195EB87BD9E7EC94431F0BE0077B69 /* NSString+toPureJSString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 679B3F39B878696D8FDBF435C4EB71B0 /* Build configuration list for PBXNativeTarget "AAChartKit" */;
+			buildPhases = (
+				A0C748D2D28FF02C9C88089DE5128624 /* Headers */,
+				59F540B4EF97A67BDB265396B695E4FC /* Sources */,
+				4E04D7C39AEA41B975585579AB77E3DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6DB145E0EA70F62B563FE77486563A /* PBXTargetDependency */,
+			);
+			name = AAChartKit;
+			productName = AAChartKit;
+			productReference = 5D823390604C52DFAA3AC10C8BFB8335 /* libAAChartKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				2697A8D6B2989B073B236F7B4BF67F30 /* Headers */,
+				8C28688BF2BD730285E2F5DE30F8C021 /* Sources */,
+				01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8CD756CB28DF32979B3EE0D2AE986D32 /* Pods-PieChartExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD52F4C883D78832C574482261497E46 /* Build configuration list for PBXNativeTarget "Pods-PieChartExample" */;
+			buildPhases = (
+				3B8237CFBC3532EF3D97180004AA15AC /* Headers */,
+				616A0B4117E66E11BF684F773C92B255 /* Sources */,
+				C3ABD9187C3D5840697FEB8278D2CC9B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B3B1A4ABD17791B21755EE7B4CD454F /* PBXTargetDependency */,
+				9549A57A34F089C852933DD9A3171E90 /* PBXTargetDependency */,
+			);
+			name = "Pods-PieChartExample";
+			productName = "Pods-PieChartExample";
+			productReference = 0C3552B0B2763AFAC66C8B60EB05FDE0 /* libPods-PieChartExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D55EA7395F837D8CB375579499940DFC /* AAChartKit-AAChartKitLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0436776B59AB613902B647D8A2812E55 /* Build configuration list for PBXNativeTarget "AAChartKit-AAChartKitLib" */;
+			buildPhases = (
+				A4272612F09BF4B911FDB50D660CF482 /* Sources */,
+				DD48AF4646FB0361EF2C317F7C094B91 /* Frameworks */,
+				BD222EC611E58431001F829C02FCB858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AAChartKit-AAChartKitLib";
+			productName = "AAChartKit-AAChartKitLib";
+			productReference = 749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F162335886B4AD36DB74A29B2F54E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */,
+				D55EA7395F837D8CB375579499940DFC /* AAChartKit-AAChartKitLib */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				8CD756CB28DF32979B3EE0D2AE986D32 /* Pods-PieChartExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD222EC611E58431001F829C02FCB858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A9460227A5E3F3454E1A3C7A6F4C23 /* AAJSFiles.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F540B4EF97A67BDB265396B695E4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1DCB0C3454FDEA39ADCFABEDF14BD /* AAAnimation.m in Sources */,
+				B0FE459F7309A6095C8B82AC29689D9D /* AAArea.m in Sources */,
+				1707246D2790CFA68558BA3AC8EB8E7F /* AAAreaspline.m in Sources */,
+				3B502D9E9B7677A8350F32E22771581D /* AABar.m in Sources */,
+				E15D9CABB21D8EEE83714507D9CEF6CF /* AAChart.m in Sources */,
+				5BE2CAC42044253AD5AC332714808848 /* AAChartKit-dummy.m in Sources */,
+				84EE4BCAFF7ED5EEF996C71D84179F34 /* AAChartModel.m in Sources */,
+				F32005B15A798BE974EDA6805CF4D97E /* AAChartView.m in Sources */,
+				A4EB9F391D48438C7B3BF52F73A36854 /* AAColor.m in Sources */,
+				6F9B2D69CBD8FE3A1DD4A75397E8D256 /* AAColumn.m in Sources */,
+				62B73FEE6F7B850F338DA12D953B2977 /* AACredits.m in Sources */,
+				74205D97E023A8AE739234693B364997 /* AACrosshair.m in Sources */,
+				AAF15549A794B5EAA7483E389B088B97 /* AADataLabels.m in Sources */,
+				66ACC4D5C706B0D3EB51136BD9879335 /* AAGradientColor.m in Sources */,
+				120A279AB0D7989AEBEEEBD2F65CEB79 /* AALabel.m in Sources */,
+				C23FB94293D177DDD0ED25B5A336A650 /* AALabels.m in Sources */,
+				A7F7470A51D5B71B8568FB4D9F02368B /* AALang.m in Sources */,
+				30340C7020BF0B659299C30582E71C9F /* AALegend.m in Sources */,
+				993E17A378EEF72FFCD88698B8BF315A /* AALine.m in Sources */,
+				9B82394B675286A7CAEBC2E32A859724 /* AAMarker.m in Sources */,
+				E719714B0C8D2C623F45803047D6A320 /* AAOptions.m in Sources */,
+				D309E54AF2281F1B3E9EF3EFE88ED478 /* AAPane.m in Sources */,
+				0169AACD29B54C2442B3B42F2B22A658 /* AAPie.m in Sources */,
+				1CA991F778471CA10DED5BA015C44C32 /* AAPlotBandsElement.m in Sources */,
+				190D55E9A53977ACA5B70E79F4EF4098 /* AAPlotLinesElement.m in Sources */,
+				9E4EA27F4C56D33560F264909097E52D /* AAPlotOptions.m in Sources */,
+				5CA67B634D948FD21F7D085902C57599 /* AASeries.m in Sources */,
+				8B68AE99B17D80483A722128D8552BEE /* AASeriesElement.m in Sources */,
+				A261F719502C60DF52685A0085718644 /* AAShadow.m in Sources */,
+				E9D82C1007232C16528301ADFAA8C5BD /* AASpline.m in Sources */,
+				AA6D60B0B3254F3F93F660ABB79C6B1E /* AAStates.m in Sources */,
+				0C6F40EB30743313D060171139AA40BC /* AAStyle.m in Sources */,
+				5B470BD879AB1E90E6068D4F85615EA6 /* AATitle.m in Sources */,
+				EE2800C5286D1F51A7D1F29E40EFCA2D /* AATooltip.m in Sources */,
+				DAABE6DE29405B7BCB0D5B4320137406 /* AAXAxis.m in Sources */,
+				4F2BB0B392777621BC23DABAEA757464 /* AAYAxis.m in Sources */,
+				A625F76FDE8F0E5C4C1DF25ED88900FB /* NSArray+toJSArray.m in Sources */,
+				BB91A024EAD1F47E999B120ECBFED51A /* NSString+toPureJSString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616A0B4117E66E11BF684F773C92B255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE7F9FC9F8B235070AF68207CC8FB24 /* Pods-PieChartExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C28688BF2BD730285E2F5DE30F8C021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */,
+				EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */,
+				1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */,
+				0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */,
+				D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */,
+				A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */,
+				572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */,
+				B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */,
+				59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */,
+				C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4272612F09BF4B911FDB50D660CF482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B3B1A4ABD17791B21755EE7B4CD454F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AAChartKit;
+			target = 47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */;
+			targetProxy = 4C5A08BFBDE0632C88599D9D5A85DFE9 /* PBXContainerItemProxy */;
+		};
+		3A6DB145E0EA70F62B563FE77486563A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AAChartKit-AAChartKitLib";
+			target = D55EA7395F837D8CB375579499940DFC /* AAChartKit-AAChartKitLib */;
+			targetProxy = B785257AEE592167BC072E8F4B787179 /* PBXContainerItemProxy */;
+		};
+		9549A57A34F089C852933DD9A3171E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 6751627AA8EDB6C8523CD62C1CF9B3EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2365FFF7866ED7C6BE1F481E4DD6EBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766ED3268C07590C318390FF4F683A57 /* Pods-PieChartExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2447AE44EA29785E354E1BB7EE6E7ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F09E27CAE2F54F7BADEFE770814D659 /* AAChartKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AAChartKit/AAChartKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AAChartKit;
+				PRODUCT_NAME = AAChartKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AEEA5CC30001CB70A788717A32DBAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539A61012343D92544E72BE7623FF4CE /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E863307AE1CE74D7CC866D3256899F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C0954B25264E4B3A65AB9FD2795EB4 /* Pods-PieChartExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4C813396FB97BA48592B8EB6DABCC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E622B1A5A58C39BD579BD9324039AE55 /* AAChartKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AAChartKit";
+				IBSC_MODULE = AAChartKit;
+				INFOPLIST_FILE = "Target Support Files/AAChartKit/ResourceBundle-AAChartKitLib-AAChartKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AAChartKitLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BED7C5933F9C8B7E5CAE0E9E411B5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F09E27CAE2F54F7BADEFE770814D659 /* AAChartKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AAChartKit";
+				IBSC_MODULE = AAChartKit;
+				INFOPLIST_FILE = "Target Support Files/AAChartKit/ResourceBundle-AAChartKitLib-AAChartKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AAChartKitLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CA7E5FCD4103F7BEEB5BA78DAD6FDE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E622B1A5A58C39BD579BD9324039AE55 /* AAChartKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AAChartKit/AAChartKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AAChartKit;
+				PRODUCT_NAME = AAChartKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99870D874C7FA838E84D9C55C010CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B477A23F597A61DF4AADDD4087AF432D /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0436776B59AB613902B647D8A2812E55 /* Build configuration list for PBXNativeTarget "AAChartKit-AAChartKitLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C813396FB97BA48592B8EB6DABCC60 /* Debug */,
+				BED7C5933F9C8B7E5CAE0E9E411B5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99870D874C7FA838E84D9C55C010CF1 /* Debug */,
+				8AEEA5CC30001CB70A788717A32DBAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679B3F39B878696D8FDBF435C4EB71B0 /* Build configuration list for PBXNativeTarget "AAChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7E5FCD4103F7BEEB5BA78DAD6FDE24 /* Debug */,
+				2447AE44EA29785E354E1BB7EE6E7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD52F4C883D78832C574482261497E46 /* Build configuration list for PBXNativeTarget "Pods-PieChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2365FFF7866ED7C6BE1F481E4DD6EBD1 /* Debug */,
+				92E863307AE1CE74D7CC866D3256899F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
