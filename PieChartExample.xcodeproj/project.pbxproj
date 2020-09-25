@@ -18,6 +18,11 @@
 		BB38BFA7251C8F5300772B3A /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38BFA6251C8F5300772B3A /* TopBarView.m */; };
 		BB38BFAB251C967800772B3A /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38BFAA251C967800772B3A /* MainCell.m */; };
 		BB38BFAF251CA60A00772B3A /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38BFAE251CA60A00772B3A /* GridCell.m */; };
+		BB679A92251D806B00446445 /* ColumChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB679A91251D806B00446445 /* ColumChartViewController.m */; };
+		BB679A97251D809B00446445 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB679A96251D809B00446445 /* LineChartViewController.m */; };
+		BB679A9A251D80A700446445 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB679A99251D80A700446445 /* PieChartViewController.m */; };
+		BB679AA2251DE73C00446445 /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB679AA1251DE73C00446445 /* BarChartViewController.m */; };
+		BB679AA5251DEA4C00446445 /* HomeTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB679AA4251DEA4C00446445 /* HomeTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,16 @@
 		BB38BFAA251C967800772B3A /* MainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
 		BB38BFAD251CA60A00772B3A /* GridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
 		BB38BFAE251CA60A00772B3A /* GridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+		BB679A90251D806B00446445 /* ColumChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColumChartViewController.h; sourceTree = "<group>"; };
+		BB679A91251D806B00446445 /* ColumChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColumChartViewController.m; sourceTree = "<group>"; };
+		BB679A95251D809B00446445 /* LineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		BB679A96251D809B00446445 /* LineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		BB679A98251D80A700446445 /* PieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		BB679A99251D80A700446445 /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		BB679AA0251DE73C00446445 /* BarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		BB679AA1251DE73C00446445 /* BarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		BB679AA3251DEA4C00446445 /* HomeTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTabBarViewController.h; sourceTree = "<group>"; };
+		BB679AA4251DEA4C00446445 /* HomeTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarViewController.m; sourceTree = "<group>"; };
 		CAE350CD80F7B39B662DD168 /* Pods-PieChartExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieChartExample.release.xcconfig"; path = "Target Support Files/Pods-PieChartExample/Pods-PieChartExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,10 +110,16 @@
 		BB38BF89251C8C4100772B3A /* PieChartExample */ = {
 			isa = PBXGroup;
 			children = (
+				BB679A9F251DE72400446445 /* BarChartViewController */,
+				BB679A94251D808600446445 /* PieChartViewController */,
+				BB679A93251D807D00446445 /* LineChartViewController */,
+				BB679A8F251D804600446445 /* ColumChartViewController */,
 				BB38BFA4251C8F0E00772B3A /* GlobalView */,
 				BB38BFAC251C9F7300772B3A /* ViewController */,
 				BB38BF8A251C8C4100772B3A /* AppDelegate.h */,
 				BB38BF8B251C8C4100772B3A /* AppDelegate.m */,
+				BB679AA3251DEA4C00446445 /* HomeTabBarViewController.h */,
+				BB679AA4251DEA4C00446445 /* HomeTabBarViewController.m */,
 				BB38BF8D251C8C4100772B3A /* SceneDelegate.h */,
 				BB38BF8E251C8C4100772B3A /* SceneDelegate.m */,
 				BB38BF93251C8C4100772B3A /* Main.storyboard */,
@@ -139,6 +160,42 @@
 				BB38BF91251C8C4100772B3A /* ViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB679A8F251D804600446445 /* ColumChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB679A90251D806B00446445 /* ColumChartViewController.h */,
+				BB679A91251D806B00446445 /* ColumChartViewController.m */,
+			);
+			path = ColumChartViewController;
+			sourceTree = "<group>";
+		};
+		BB679A93251D807D00446445 /* LineChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB679A95251D809B00446445 /* LineChartViewController.h */,
+				BB679A96251D809B00446445 /* LineChartViewController.m */,
+			);
+			path = LineChartViewController;
+			sourceTree = "<group>";
+		};
+		BB679A94251D808600446445 /* PieChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB679A98251D80A700446445 /* PieChartViewController.h */,
+				BB679A99251D80A700446445 /* PieChartViewController.m */,
+			);
+			path = PieChartViewController;
+			sourceTree = "<group>";
+		};
+		BB679A9F251DE72400446445 /* BarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB679AA0251DE73C00446445 /* BarChartViewController.h */,
+				BB679AA1251DE73C00446445 /* BarChartViewController.m */,
+			);
+			path = BarChartViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +314,15 @@
 			files = (
 				BB38BF92251C8C4100772B3A /* ViewController.m in Sources */,
 				BB38BF8C251C8C4100772B3A /* AppDelegate.m in Sources */,
+				BB679A9A251D80A700446445 /* PieChartViewController.m in Sources */,
+				BB679A97251D809B00446445 /* LineChartViewController.m in Sources */,
 				BB38BFAB251C967800772B3A /* MainCell.m in Sources */,
 				BB38BF9D251C8C4600772B3A /* main.m in Sources */,
+				BB679AA2251DE73C00446445 /* BarChartViewController.m in Sources */,
 				BB38BFAF251CA60A00772B3A /* GridCell.m in Sources */,
 				BB38BFA7251C8F5300772B3A /* TopBarView.m in Sources */,
+				BB679AA5251DEA4C00446445 /* HomeTabBarViewController.m in Sources */,
+				BB679A92251D806B00446445 /* ColumChartViewController.m in Sources */,
 				BB38BF8F251C8C4100772B3A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

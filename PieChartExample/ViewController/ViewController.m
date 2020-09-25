@@ -6,10 +6,14 @@
 //  Copyright © 2020 josh.chen. All rights reserved.
 //
 
+#import "PieChartViewController.h"
+#import "LineChartViewController.h"
+#import "ColumChartViewController.h"
+#import "BarChartViewController.h"
 #import "ViewController.h"
 #import "MainCell.h"
 
-#define TitleList @[@"Colum Chart", @"Line Chart", @"Pie Chart"]
+#define TitleList @[@"Colum Chart", @"Line Chart", @"Pie Chart", @"Bar Chart"]
 
 typedef enum {
     TableList, // 表單
@@ -40,9 +44,10 @@ typedef enum {
     
     topBar = [[TopBarView alloc] initWithFrame:CGRectZero];
     topBar.titleLabel.text = @"PieChart Example";
+    topBar.additionButton.hidden = true;
     topBar.backButton.hidden = true;
-    [topBar.additionButton setImage:[UIImage imageNamed:@"activity_grid_2"] forState:UIControlStateNormal];
-    [topBar.additionButton addTarget:self action:@selector(additionButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+//    [topBar.additionButton setImage:[UIImage imageNamed:@"activity_grid_2"] forState:UIControlStateNormal];
+//    [topBar.additionButton addTarget:self action:@selector(additionButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:topBar];
     
@@ -60,7 +65,7 @@ typedef enum {
     [topBar mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.left.top.right.mas_equalTo(self.view);
-        make.height.mas_equalTo(self.view).multipliedBy(0.1);
+        make.height.mas_equalTo(@60);
         
     }];
     
@@ -128,19 +133,49 @@ typedef enum {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
     switch (indexPath.row) {
         
-        case 0:
+        case 0: {
+         
+            ColumChartViewController *columViewController = [[ColumChartViewController alloc] init];
+            columViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+            
+            [self presentViewController:columViewController animated:YES completion:nil];
             
             break;
+        }
             
-        case 1:
+        case 1: {
+         
+            LineChartViewController *lineViewController = [[LineChartViewController alloc] init];
+            lineViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+            
+            [self presentViewController:lineViewController animated:YES completion:nil];
             
             break;
+        }
             
-        case 2:
+        case 2: {
+            
+            PieChartViewController *pieViewController = [[PieChartViewController alloc] init];
+            pieViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+            
+            [self presentViewController:pieViewController animated:YES completion:nil];
             
             break;
+        }
+            
+        case 3: {
+            
+            BarChartViewController *barViewController = [[BarChartViewController alloc] init];
+            barViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+            
+            [self presentViewController:barViewController animated:YES completion:nil];
+            
+            break;
+        }
             
     }
     

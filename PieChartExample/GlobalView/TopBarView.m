@@ -36,7 +36,7 @@
     
     [_backButton mas_makeConstraints:^(MASConstraintMaker *make) {
        
-        make.left.mas_equalTo(self).offset(10);
+        make.left.mas_equalTo(self).offset(15);
         make.centerY.mas_equalTo(_titleLabel);
         
     }];
@@ -65,7 +65,7 @@
     
     UIButton *backButton = [[UIButton alloc] init];
     [backButton setTitle:@"Done" forState:UIControlStateNormal];
-    [backButton.titleLabel setFont:[UIFont fontWithName:AGENCY_FB size:15]];
+    [backButton.titleLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:18]];
     _backButton = backButton;
     
     [self addSubview:_backButton];
