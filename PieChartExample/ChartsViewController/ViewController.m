@@ -14,7 +14,7 @@
 #import "ViewController.h"
 #import "MainCell.h"
 
-#define TitleList @[@"Colum Chart", @"Line Chart", @"Pie Chart", @"Bar Chart", @"Area Chart"]
+#define TitleList @[@"Colum Chart", @"Line Chart", @"Pie Chart", @"Bar Chart", @"Spline Chart"]
 
 typedef enum {
     TableList, // 表單

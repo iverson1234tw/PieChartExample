@@ -63,30 +63,25 @@
 - (AAChartModel *)configure_chart {
     
     return AAChartModel.new
-    .chartTypeSet(AAChartTypeArea)
-    .titleSet(@"带有负数的区域填充图")
-    .markerRadiusSet(@0)//设置折线连接点宽度为0,即是隐藏连接点
-    .subtitleSet(@"横屏查看效果更佳")
-    .yAxisGridLineWidthSet(@0)
-    .categoriesSet(@[@"Java",@"Swift",@"Python",@"Ruby", @"PHP",@"Go",@"C",@"C#",@"C++",@"HTML",@"CSS",@"Perl",@"R",@"MATLAB",@"SQL"])
-    .colorsThemeSet(@[@"#49C1B6", @"#FDC20A", @"#F78320", @"#068E81", @"#EA007B"])
+    .yAxisVisibleSet(false)
+    .chartTypeSet(AAChartTypeSpline)
+    .legendEnabledSet(false)//隐藏图例(底部可点按的小圆点)
+    .categoriesSet(@[@"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", @"12"])
+    .markerSymbolStyleSet(AAChartSymbolStyleTypeInnerBlank)
+    .markerRadiusSet(@1.0)
     .seriesSet(@[
         AASeriesElement.new
-        .nameSet(@"2017")
-        .dataSet(@[@0, @(-7.5), @(-1.0), @3.7, @0, @(-3), @8, @0,@(-3.6), @4, @(-2), @0]),
-        AASeriesElement.new
-        .nameSet(@"2018")
-        .dataSet(@[@0, @(-2.2), @2, @(-2.2), @0, @(-1.5), @0, @2.4, @(-1), @3, @(-1), @0]),
-        AASeriesElement.new
-        .nameSet(@"2019")
-        .dataSet(@[@0, @2.3, @0, @1.2, @(-1), @3, @0, @(-3.3), @0, @2, @(-0.3), @0]),
-        AASeriesElement.new
-        .nameSet(@"2020")
-        .dataSet(@[@0, @10, @0.13,@2,@0, @2, @0, @3.7, @0, @1, @(-3), @0]),
-        AASeriesElement.new
-        .nameSet(@"2020")
-        .dataSet(@[@0, @(-4.5), @(-0.9), @5.5, @(-1.9), @1.3, @(-2.8), @0, @(-1.7), @0, @3, @0, ]),
-    ]);
+        .nameSet(@"Points")
+        .lineWidthSet(@1.0)
+        .dataSet(@[@7.0, @6.9, @2.5, @14.5, @18.2, @21.5, @5.2, @26.5, @23.3, @45.3, @13.9, @9.6])
+        .shadowSet(AAShadow.new
+                   .offsetXSet(@1.0)
+                   .offsetYSet(@1.0)
+                   .opacitySet(@0.2)
+                   .widthSet(@1.0)
+                   .colorSet(AAColor.redColor)
+                   ),
+               ]);
 }
 
 - (void)doneButtonClicked:(UIButton *)sender {

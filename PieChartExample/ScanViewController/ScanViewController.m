@@ -57,6 +57,8 @@
     
     [self.view addSubview:_scanView];
     
+    
+    
     [topBar mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.left.top.right.mas_equalTo(self.view);
@@ -65,7 +67,7 @@
     }];
     
     [_scanView mas_makeConstraints:^(MASConstraintMaker *make) {
-               
+        
         make.centerX.mas_equalTo(self.view);
         make.centerY.mas_equalTo(self.view);
         make.width.height.mas_equalTo(self.view.mas_width).multipliedBy(0.8);
@@ -131,11 +133,39 @@
 -(void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection{
      
     // Check if the metadataObjects array is not nil and it contains at least one object.
-    if (metadataObjects != nil && [metadataObjects count] == 0) {
+    if (metadataObjects != nil && [metadataObjects count] != 0) {
          
-        NSLog(@"Result:%@", metadataObjects);
+//        NSLog(@"Result:%@", metadataObjects);
         // Get the metadata object.
         AVMetadataMachineReadableCodeObject *metadataObj = [metadataObjects objectAtIndex:0];
+        
+        NSLog(@"%@", [metadataObj stringValue]);
+        
+        if ([metadataObj stringValue] != nil) {
+            
+            [self stopReading];
+            
+            [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
+             
+            _isReading = NO;
+            
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"QRCode解析" message:[NSString stringWithFormat:@"StringValue===%@", [metadataObj stringValue]] preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+
+                [self startReading];
+                
+            }];
+
+            [alert addAction:ok];
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+               // do work here
+               [self presentViewController:alert animated:YES completion:nil];
+                
+            });
+            
+        }
+        
         if ([[metadataObj type] isEqualToString:AVMetadataObjectTypeCode93Code] || [[metadataObj type] isEqualToString:AVMetadataObjectTypeCode128Code]) {
             // If the found metadata is equal to the QR code metadata then update the status label's text,
             // stop reading and change the bar button item's title and the flag's value.
@@ -146,6 +176,7 @@
             [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
              
             _isReading = NO;
+                        
         }
     }
     

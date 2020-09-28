@@ -52,7 +52,7 @@
         
         make.centerY.centerX.mas_equalTo(self.view);
         make.width.mas_equalTo(self.view);
-        make.height.mas_equalTo(self.view).multipliedBy(0.5);
+        make.height.mas_equalTo(self.view).multipliedBy(0.6);
         
     }];
     
@@ -75,15 +75,12 @@
         .dataSet(@[@7.0, @6.9, @9.5, @14.5, @18.2, @21.5]),
         AASeriesElement.new
         .nameSet(@"Emily")
-        .enableMouseTrackingSet(@false)
         .dataSet(@[@0.2, @0.8, @5.7, @11.3, @17.0, @22.0]),
         AASeriesElement.new
         .nameSet(@"John")
-        .enableMouseTrackingSet(@false)
         .dataSet(@[@0.9, @0.6, @3.5, @8.4, @13.5, @17.0]),
         AASeriesElement.new
-        .nameSet(@"Steven")
-        .enableMouseTrackingSet(@false)
+        .nameSet(@"Steven")        
         .dataSet(@[@3.9, @4.2, @5.7, @8.5, @11.9, @15.2]),
     ]);
 }

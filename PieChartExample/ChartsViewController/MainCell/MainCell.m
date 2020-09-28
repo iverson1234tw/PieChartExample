@@ -47,6 +47,7 @@
 
 - (void)initialize {
     
+    self.contentView.backgroundColor = [UIColor whiteColor];
     self.selectionStyle = UITableViewCellSelectionStyleNone;
     
     _backView = [[UIView alloc] init];
